@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2022-2023 The LineageOS Project
+# Copyright (C) 2024 The Infinity-X Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,9 +13,27 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/fogos/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_fogos
+# Maintainer
+INFINITY_BUILD_TYPE := OFFICIAL
+INFINITY_MAINTAINER := Dr.Opto
+WITH_GAPPS=true
+
+#Infinity Props
+TARGET_SUPPORTS_TOUCHGESTURES := true
+TARGET_BUILD_GOOGLE_TELEPHONY := true
+TARGET_BUILD_VIMUSIC := false
+
+# Device props
+TARGET_SUPPORTS_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Charging Animation
+USE_PIXEL_CHARGER := true
+
+PRODUCT_NAME := infinity_fogos
 PRODUCT_DEVICE := fogos
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
