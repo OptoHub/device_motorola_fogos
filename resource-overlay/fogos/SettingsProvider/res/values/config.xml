@@ -6,4 +6,8 @@
 <resources>
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
     <string name="def_device_name_simple">moto g34 5G</string>
+
+    <!-- Speed up the animations -->
+    <fraction name="def_window_animation_scale">0%</fraction>
+    <fraction name="def_window_transition_scale">50%</fraction>
 </resources>
