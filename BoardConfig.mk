@@ -36,7 +36,7 @@ TARGET_PHONEINFO_PROP += $(DEVICE_PATH)/phoneinfo.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2024-06-01
+VENDOR_SECURITY_PATCH := 2024-07-01
 
 # inherit from the proprietary version
 include vendor/motorola/fogos/BoardConfigVendor.mk
