@@ -9,7 +9,7 @@ git clone https://github.com/OptoHub/hardware_motorola.git -b 15 hardware/motoro
 rm -rf prebuilts/clang/host/linux-x86/clang-r487747c
 git clone https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c.git -b 14.0  prebuilts/clang/host/linux-x86/clang-r487747c
 
-rm -rf  vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4
-mkdir  vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4 && cd vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4
+rm -rf vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4
+mkdir vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4 && cd vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4
 wget https://sourceforge.net/projects/rom-violet/files/fogos/MotCamera4.apk
 cd ../../../../../../..
