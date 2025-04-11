@@ -33,6 +33,10 @@ PRODUCT_PACKAGES += \
     ProductFrameworksResFogos \
     SettingsProviderResFogos \
     SystemUIResFogos \
+    SettingsOverlayXT2363-1 \
+    SettingsOverlayXT2363-2 \
+    SettingsOverlayXT2363-3 \
+    SettingsOverlayXT2363-5 \
     WifiResFogos
 
 # Audio
