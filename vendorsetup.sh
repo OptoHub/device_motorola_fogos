@@ -7,7 +7,7 @@ rm -rf hardware/motorola
 git clone https://github.com/OptoHub/hardware_motorola.git -b 15 hardware/motorola
 
 rm -rf prebuilts/clang/host/linux-x86
-git clone https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86 -b android15-qpr2-release prebuilts/clang/host/linux-x86
+git clone https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86 -b android15-qpr2-release prebuilts/clang/host/linux-x86 --depth=1
 
 rm -rf vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4
 mkdir vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4 && cd vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4
